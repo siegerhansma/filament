@@ -32,4 +32,7 @@ ColorPicker::make('rgb_color')
 
 ColorPicker::make('rgba_color')
     ->rgba()
+
+ColorPicker::make('hsv_color')
+    ->hsv()
 ```

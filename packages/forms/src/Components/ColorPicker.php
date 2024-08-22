@@ -54,6 +54,13 @@ class ColorPicker extends Field implements Contracts\HasAffixActions
         return $this;
     }
 
+    public function hsv(): static
+    {
+        $this->format('hsv');
+
+        return $this;
+    }
+
     public function getFormat(): string
     {
         return $this->evaluate($this->format);

@@ -107,6 +107,7 @@
                         'hsl' => 'hsl-string',
                         'rgb' => 'rgb-string',
                         'rgba' => 'rgba-string',
+                        'hsv' => 'hsv-string',
                         default => 'hex',
                     } . '-color-picker';
                 @endphp
